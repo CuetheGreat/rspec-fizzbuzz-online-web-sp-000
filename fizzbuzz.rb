@@ -2,11 +2,11 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(number)
-  if number % 3 == 0 && number % 5 == 0
+  if (number % 3 == 0 && number % 5 == 0)
     return "FizzBuzz"
-  else if number % 3 == 0
+  else if (number % 3 == 0)
     return "Fizz"
-  else if number % 5 == 0
+  else if log10)
     return "Buzz"
   else
     return nil
